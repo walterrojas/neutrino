@@ -44,9 +44,9 @@ module.exports = (neutrino, opts = {}) => {
         test: options.modulesTest,
         exclude: options.modulesExclude,
         ruleId: `${options.ruleId}${options.modulesSuffix}`,
-        styleUseId: `${options.styleUseId}${options.modulesSuffix}`,
-        cssUseId: `${options.cssUseId}${options.modulesSuffix}`,
-        extractId: `${options.extractId}${options.modulesSuffix}`,
+        styleUseId: `${options.styleUseId}`,
+        cssUseId: `${options.cssUseId}`,
+        extractId: `${options.extractId}`,
         css: {
           modules: options.modules
         }
